@@ -3,7 +3,7 @@ module.exports = (app) => {
 
   var router = require("express").Router();
   // Create a new Tutorial
-  router.post("/create", addressController.create);
+  // router.post("/create", addressController.create);
   router.post("/select", addressController.select);
   app.use("/api/address", router);
 };
